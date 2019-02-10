@@ -1,0 +1,18 @@
+# vscode
+.vscode/
+.tests/
+
+# Eclipse
+source/.classpath
+source/.project
+source/.settings/
+
+# Mac
+.DS_Store
+
+# Maven
+source/dependency-reduced-pom.xml
+source/target/
+
+*.class
+*.*~

@@ -1,0 +1,7 @@
+.vscode/
+.classpath
+.project
+.settings/
+target/
+*.class
+output.csv

@@ -19,7 +19,6 @@ I have a Java project and it was a necessity to merge two CSV file into one with
 This application is written in Java and built using Maven. The code has been tested on Linux. To build the code:
 
 ```
-cd source
 mvn clean install
 ```
 
@@ -28,7 +27,6 @@ mvn clean install
 - Create output.csv
 
 ```
-cd source
 java -cp target/mergecsv-1.0.7.jar com.albon.util.MergeCSV \
   --a test_files/5f780f0c.csv --b test_files/b44fb40f.csv \
   --t test_files/template.csv --o output.csv
@@ -47,7 +45,6 @@ java -cp target/mergecsv-1.0.7.jar com.albon.util.MergeCSV \
 ## Verification
 
 ```
-cd source
 diff -cads output.csv test_files/results.csv
 
 # Should display as follows:
