@@ -12,8 +12,6 @@ I have a Java project and it was a necessity to merge two CSV file into one with
 
 [Maven 3](https://maven.apache.org/download.cgi)
 
-![Source](source/README.md)
-
 ## Building & Running
 
 This application is written in Java and built using Maven. The code has been tested on Linux. To build the code:
